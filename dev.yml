@@ -1,4 +1,4 @@
-- hosts: odoo
+- hosts: all
   tasks:
   - name: ensure that postgresql is started
     service: name=postgresql state=running
