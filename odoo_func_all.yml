@@ -1,0 +1,4 @@
+- hosts: all
+  tasks:
+    - include: tests/db.yml
+    - include: tests/odoo.yml
