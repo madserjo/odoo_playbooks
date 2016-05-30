@@ -1,0 +1,4 @@
+- hosts: odoo
+  tasks:
+  - name: ensure that odoo is started
+    service: name=odoo state=running
